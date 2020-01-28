@@ -1,1 +1,3 @@
-echo "Hola Mundo\n"
+<?php
+@print "Hola {$argv[1]}\n";
+
